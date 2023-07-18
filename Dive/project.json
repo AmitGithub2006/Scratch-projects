@@ -1,0 +1,196 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 2,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "6cab934df643d2fc508cfa90c0c4059b",
+          "name": "Pool",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        },
+        {
+          "assetId": "fb907f72b310acc8b95cbf2d2cccabc9",
+          "name": "Underwater 1",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Diver1",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "uMIyUNt$~jlj=izqr1*l": {
+          "opcode": "event_whenkeypressed",
+          "next": "/HM{+^[lfeKUSL2xbh:i",
+          "parent": null,
+          "inputs": {},
+          "fields": { "KEY_OPTION": ["space", null] },
+          "shadow": false,
+          "topLevel": true,
+          "x": 386,
+          "y": 340
+        },
+        "/HM{+^[lfeKUSL2xbh:i": {
+          "opcode": "looks_changesizeby",
+          "next": null,
+          "parent": "uMIyUNt$~jlj=izqr1*l",
+          "inputs": { "CHANGE": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "853803d5600b66538474909c5438c8ee",
+          "name": "diver1",
+          "bitmapResolution": 1,
+          "md5ext": "853803d5600b66538474909c5438c8ee.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 75,
+          "rotationCenterY": 75
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -125.28680732668674,
+      "y": -105.9938080495356,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Diver2",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "248d3e69ada69a64b1077149ef6a931a",
+          "name": "diver2",
+          "bitmapResolution": 1,
+          "md5ext": "248d3e69ada69a64b1077149ef6a931a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 75,
+          "rotationCenterY": 75
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 66.02135984233713,
+      "y": 77.08049535603713,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Pool"
+          },
+          {
+             "name": "Underwater 1"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenkeypressed",
+            "topLevel":true,
+            "fields": { "KEY_OPTION": ["*", null] }
+          },
+          {
+            "opcode": "looks_changesizeby",
+            "inputs": { "CHANGE": [1, [4, "*"]] }
+          }
+        ]
+      },
+      {
+        "targetIndex": 2,
+        "blocks":[],
+        "name": "Diver2"
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

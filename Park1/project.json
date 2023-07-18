@@ -1,0 +1,241 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "4fcf7ed0de6c6b6e9b52c511b0650e9c",
+          "name": "Woods And Bench",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Dot",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "[}q:7Dn~Ctq4/ALo;qIB": {
+          "opcode": "event_whenthisspriteclicked",
+          "next": "ej7^h8=0jw)i/M.)N}Bc",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 329,
+          "y": 147
+        },
+        "ej7^h8=0jw)i/M.)N}Bc": {
+          "opcode": "looks_say",
+          "next": "2#+,YB:Q=t|,R|+I@H0B",
+          "parent": "[}q:7Dn~Ctq4/ALo;qIB",
+          "inputs": { "MESSAGE": [1, [10, "Hello!"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "2#+,YB:Q=t|,R|+I@H0B": {
+          "opcode": "looks_nextcostume",
+          "next": null,
+          "parent": "ej7^h8=0jw)i/M.)N}Bc",
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "3b9e6830365aeadb63c21b681777b783",
+          "name": "dot-a",
+          "bitmapResolution": 1,
+          "md5ext": "3b9e6830365aeadb63c21b681777b783.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 52,
+          "rotationCenterY": 67
+        },
+        {
+          "assetId": "a80a07906ffbb9671dba3633223859af",
+          "name": "dot-b",
+          "bitmapResolution": 1,
+          "md5ext": "a80a07906ffbb9671dba3633223859af.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 65,
+          "rotationCenterY": 67
+        },
+        {
+          "assetId": "1e1bdccbab5b566beb7f91b5ec01352f",
+          "name": "dot-c",
+          "bitmapResolution": 1,
+          "md5ext": "1e1bdccbab5b566beb7f91b5ec01352f.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 51,
+          "rotationCenterY": 69
+        },
+        {
+          "assetId": "06d70d5de0e25f97c1c606e513ab019c",
+          "name": "dot-d",
+          "bitmapResolution": 1,
+          "md5ext": "06d70d5de0e25f97c1c606e513ab019c.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 57,
+          "rotationCenterY": 67
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "cd8fa8390b0efdd281882533fbfcfcfb",
+          "name": "bark",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 6896,
+          "md5ext": "cd8fa8390b0efdd281882533fbfcfcfb.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -81.0433572919082,
+      "y": 43.321981424148596,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Owl",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "5348f1ea36a645322e88796545ca8ca1",
+          "name": "owl-a",
+          "bitmapResolution": 1,
+          "md5ext": "5348f1ea36a645322e88796545ca8ca1.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 24,
+          "rotationCenterY": 40
+        },
+        {
+          "assetId": "3d8ba4198a03e484ed63bde584fd5bc1",
+          "name": "owl-b",
+          "bitmapResolution": 1,
+          "md5ext": "3d8ba4198a03e484ed63bde584fd5bc1.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 44,
+          "rotationCenterY": 46
+        },
+        {
+          "assetId": "4e81445e70169f074ad50473a78f3381",
+          "name": "owl-c",
+          "bitmapResolution": 1,
+          "md5ext": "4e81445e70169f074ad50473a78f3381.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 109,
+          "rotationCenterY": 41
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 171.28750289821468,
+      "y": 143.1517027863777,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Woods And Bench"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenthisspriteclicked",
+            "topLevel": true
+          },
+          {
+            "opcode": "looks_say",
+            "inputs": { "MESSAGE": [1, [10, "*"]] }
+          },
+          {
+            "opcode": "looks_nextcostume"
+          }
+        ]
+      },
+      {
+         "targetIndex": 2,
+         "blocks":[],
+         "name": "Owl"
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

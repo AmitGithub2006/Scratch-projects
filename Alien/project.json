@@ -1,0 +1,206 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "0c450891306fa63ef02aa0fda7fd0ef9",
+          "name": "Spaceship",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Frank",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "1_5c)PwjGPRT2Q!]yP1M": {
+          "opcode": "event_whenkeypressed",
+          "next": "HEo22:/0wS%E;zh3q+eX",
+          "parent": null,
+          "inputs": {},
+          "fields": { "KEY_OPTION": ["space", null] },
+          "shadow": false,
+          "topLevel": true,
+          "x": 120,
+          "y": 85
+        },
+        "HEo22:/0wS%E;zh3q+eX": {
+          "opcode": "sound_play",
+          "next": null,
+          "parent": "1_5c)PwjGPRT2Q!]yP1M",
+          "inputs": { "SOUND_MENU": [1, "d*8E;KU1-S%m*UBP5jF!"] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "d*8E;KU1-S%m*UBP5jF!": {
+          "opcode": "sound_sounds_menu",
+          "next": null,
+          "parent": "HEo22:/0wS%E;zh3q+eX",
+          "inputs": {},
+          "fields": { "SOUND_MENU": ["wolf howl", null] },
+          "shadow": true,
+          "topLevel": false
+        },
+        "J}Dib9f%2Th!iXsf-`BG": {
+          "opcode": "event_whenflagclicked",
+          "next": "T}i#Vtu5Y3bC[g8Mw|%P",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 483,
+          "y": 102
+        },
+        "T}i#Vtu5Y3bC[g8Mw|%P": {
+          "opcode": "looks_say",
+          "next": null,
+          "parent": "J}Dib9f%2Th!iXsf-`BG",
+          "inputs": { "MESSAGE": [1, [10, "Hello!"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "8ebcc9a619ae0455df9da42d39f59c1d",
+          "name": "frank-a",
+          "bitmapResolution": 1,
+          "md5ext": "8ebcc9a619ae0455df9da42d39f59c1d.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 97,
+          "rotationCenterY": 63
+        },
+        {
+          "assetId": "e605b9d87181c52825ae21597c9c1e07",
+          "name": "frank-b",
+          "bitmapResolution": 1,
+          "md5ext": "e605b9d87181c52825ae21597c9c1e07.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 105,
+          "rotationCenterY": 63
+        },
+        {
+          "assetId": "a53378250f07b6dad161516a5317277e",
+          "name": "frank-c",
+          "bitmapResolution": 1,
+          "md5ext": "a53378250f07b6dad161516a5317277e.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 159,
+          "rotationCenterY": 59
+        },
+        {
+          "assetId": "44b4ba838b60f14d6e7ebddf5df4d4c4",
+          "name": "frank-d",
+          "bitmapResolution": 1,
+          "md5ext": "44b4ba838b60f14d6e7ebddf5df4d4c4.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 106,
+          "rotationCenterY": 107
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "5e36d74bb16aa5085b901362788b0fbf",
+          "name": "wolf howl",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 187245,
+          "md5ext": "5e36d74bb16aa5085b901362788b0fbf.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -8.667748666821256,
+      "y": -5.0061919504643875,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Spaceship"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenkeypressed",
+            "topLevel":true,
+            "fields": { "KEY_OPTION": ["*", null] }
+          },
+          {
+            "opcode": "sound_play",
+            "inputs": { "SOUND_MENU": [1, "*"] }
+          },
+          {
+            "opcode": "sound_sounds_menu",
+            "fields": { "SOUND_MENU": ["*", null] }
+          },
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel": true
+          },
+          {
+            "opcode": "looks_say",
+            "inputs": { "MESSAGE": [1, [10, "*"]] }
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}
