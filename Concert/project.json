@@ -1,0 +1,357 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "c8d90320d2966c08af8cdd1c6a7a93b5",
+          "name": "Concert",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Drum-cymbal",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "d6d41862fda966df1455d2dbff5e1988",
+          "name": "drum-cymbal-a",
+          "bitmapResolution": 1,
+          "md5ext": "d6d41862fda966df1455d2dbff5e1988.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 30,
+          "rotationCenterY": 74
+        },
+        {
+          "assetId": "e6b7d7d8874bc4b7be58afe927157554",
+          "name": "drum-cymbal-b",
+          "bitmapResolution": 1,
+          "md5ext": "e6b7d7d8874bc4b7be58afe927157554.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 30,
+          "rotationCenterY": 74
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "f2c47a46f614f467a7ac802ed9ec3d8e",
+          "name": "crash cymbal",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 54900,
+          "md5ext": "f2c47a46f614f467a7ac802ed9ec3d8e.wav"
+        },
+        {
+          "assetId": "9d63ed5be96c43b06492e8b4a9cea8d8",
+          "name": "splash cymbal",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 20897,
+          "md5ext": "9d63ed5be96c43b06492e8b4a9cea8d8.wav"
+        },
+        {
+          "assetId": "efddec047de95492f775a1b5b2e8d19e",
+          "name": "bell cymbal",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 42074,
+          "md5ext": "efddec047de95492f775a1b5b2e8d19e.wav"
+        },
+        {
+          "assetId": "da8355d753cd2a5ddd19cb2bb41c1547",
+          "name": "roll cymbal",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 57539,
+          "md5ext": "da8355d753cd2a5ddd19cb2bb41c1547.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -156.7690702527243,
+      "y": -72.37461300309597,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Drums Tabla",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "68ce53b53fcc68744584c28d20144c4f",
+          "name": "Tabla-a",
+          "bitmapResolution": 1,
+          "md5ext": "68ce53b53fcc68744584c28d20144c4f.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 79,
+          "rotationCenterY": 67
+        },
+        {
+          "assetId": "01b6ffb8691d32be10fabc77ddfb55b0",
+          "name": "Tabla-b",
+          "bitmapResolution": 1,
+          "md5ext": "01b6ffb8691d32be10fabc77ddfb55b0.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 86,
+          "rotationCenterY": 73
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "35b42d98c43404a5b1b52fb232a62bd7",
+          "name": "Hi Na Tabla",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 8916,
+          "md5ext": "35b42d98c43404a5b1b52fb232a62bd7.wav"
+        },
+        {
+          "assetId": "da734693dfa6a9a7eccdc7f9a0ca9840",
+          "name": "Hi Tun Tabla",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 40611,
+          "md5ext": "da734693dfa6a9a7eccdc7f9a0ca9840.wav"
+        },
+        {
+          "assetId": "9205359ab69d042ed3da8a160a651690",
+          "name": "Lo Geh Tabla",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 67012,
+          "md5ext": "9205359ab69d042ed3da8a160a651690.wav"
+        },
+        {
+          "assetId": "d7cd24689737569c93e7ea7344ba6b0e",
+          "name": "Lo Gliss Tabla",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 15255,
+          "md5ext": "d7cd24689737569c93e7ea7344ba6b0e.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 133.80709482958497,
+      "y": -66.4984520123839,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Drums Conga",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "b3da94523b6d3df2dd30602399599ab4",
+          "name": "Drums Conga-a",
+          "bitmapResolution": 1,
+          "md5ext": "b3da94523b6d3df2dd30602399599ab4.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 65,
+          "rotationCenterY": 66
+        },
+        {
+          "assetId": "037703c2b65f051c12e9b22dcf93856c",
+          "name": "Drums Conga-b",
+          "bitmapResolution": 1,
+          "md5ext": "037703c2b65f051c12e9b22dcf93856c.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 66,
+          "rotationCenterY": 94
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "16144544de90e98a92a265d4fc3241ea",
+          "name": "High Conga",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 17832,
+          "md5ext": "16144544de90e98a92a265d4fc3241ea.wav"
+        },
+        {
+          "assetId": "0b6f94487cd8a1cf0bb77e15966656c3",
+          "name": "Low Conga",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 18250,
+          "md5ext": "0b6f94487cd8a1cf0bb77e15966656c3.wav"
+        },
+        {
+          "assetId": "1d4abbe3c9bfe198a88badb10762de75",
+          "name": "Muted Conga",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 9891,
+          "md5ext": "1d4abbe3c9bfe198a88badb10762de75.wav"
+        },
+        {
+          "assetId": "fd9a67157f57f9cc6fe3cdce38a6d4a8",
+          "name": "Tap Conga",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 14976,
+          "md5ext": "fd9a67157f57f9cc6fe3cdce38a6d4a8.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 3,
+      "visible": true,
+      "x": -22.431254347322064,
+      "y": -70.32817337461302,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Prince",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "a760bed1cfc28a30b2dc7fd045c90792",
+          "name": "prince",
+          "bitmapResolution": 1,
+          "md5ext": "a760bed1cfc28a30b2dc7fd045c90792.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 75,
+          "rotationCenterY": 75
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 4,
+      "visible": true,
+      "x": -116.48411778344538,
+      "y": -21.08668730650156,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Concert"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [],
+        "name":"Drum-cymbal"
+      },
+      {
+        "targetIndex": 2,
+        "blocks": [],
+        "name": "Drums Tabla"
+      },
+      {
+        "targetIndex": 3,
+        "blocks": [],
+        "name": "Drums Conga"
+      },
+      {
+        "targetIndex": 4,
+        "blocks": [],
+        "name": "Prince"
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

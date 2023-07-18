@@ -1,0 +1,154 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "7ffb05be9e1e680b1cef13464893e08b",
+          "name": "Street",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Truck",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "14#Nnj!Sjc@|70:Mw3B{": {
+          "opcode": "event_whenflagclicked",
+          "next": "JS@xNrT*rb-]45y~Bkdd",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 322,
+          "y": 182
+        },
+        "JS@xNrT*rb-]45y~Bkdd": {
+          "opcode": "looks_nextcostume",
+          "next": null,
+          "parent": "14#Nnj!Sjc@|70:Mw3B{",
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "51404247db5cdbc082336dfa4c03d675",
+          "name": "Truck-a",
+          "bitmapResolution": 1,
+          "md5ext": "51404247db5cdbc082336dfa4c03d675.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 174,
+          "rotationCenterY": 49
+        },
+        {
+          "assetId": "1887b8233d1b0728f715a3985f0e01b6",
+          "name": "Truck-b",
+          "bitmapResolution": 1,
+          "md5ext": "1887b8233d1b0728f715a3985f0e01b6.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 174,
+          "rotationCenterY": 58
+        },
+        {
+          "assetId": "e45bc3f87d9f603e588abe14b63b8e90",
+          "name": "Truck-c",
+          "bitmapResolution": 1,
+          "md5ext": "e45bc3f87d9f603e588abe14b63b8e90.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 174,
+          "rotationCenterY": 58
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "67aadcd28620ecdcdee2ad8eeebefa20",
+          "name": "toy honk",
+          "dataFormat": "wav",
+          "format": "adpcm",
+          "rate": 22050,
+          "sampleCount": 11177,
+          "md5ext": "67aadcd28620ecdcdee2ad8eeebefa20.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 24.281503593786226,
+      "y": -66.31888544891643,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes":[
+            {
+                "name":"Street"
+            }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel": true
+          },
+          {
+            "opcode": "looks_nextcostume"
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

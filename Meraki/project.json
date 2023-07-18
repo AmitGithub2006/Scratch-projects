@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Meraki",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "eA?KY{0Fz?e8V3tzVJ%^": {
+          "opcode": "event_whenflagclicked",
+          "next": "IRBNio_g!b~-uxUHam2d",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 240,
+          "y": 164
+        },
+        "IRBNio_g!b~-uxUHam2d": {
+          "opcode": "control_repeat",
+          "next": null,
+          "parent": "eA?KY{0Fz?e8V3tzVJ%^",
+          "inputs": {
+            "TIMES": [1, [6, "2"]],
+            "SUBSTACK": [2, "Md?lEtVYh^Tw3u8Ni%9F"]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "Md?lEtVYh^Tw3u8Ni%9F": {
+          "opcode": "looks_say",
+          "next": "fxSd+M7yP._UITrehOUf",
+          "parent": "IRBNio_g!b~-uxUHam2d",
+          "inputs": { "MESSAGE": [1, [10, "Hello!"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "fxSd+M7yP._UITrehOUf": {
+          "opcode": "motion_movesteps",
+          "next": null,
+          "parent": "Md?lEtVYh^Tw3u8Ni%9F",
+          "inputs": { "STEPS": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "0af22b3b57b61ab626c026975a08c3fc",
+          "name": "Meraki",
+          "bitmapResolution": 1,
+          "md5ext": "0af22b3b57b61ab626c026975a08c3fc.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 34.8,
+          "rotationCenterY": 57.5
+        },
+        {
+          "assetId": "15fc49c1242bb18376afe76aa77f4dd7",
+          "name": "Meraki 1",
+          "bitmapResolution": 1,
+          "md5ext": "15fc49c1242bb18376afe76aa77f4dd7.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 27,
+          "rotationCenterY": 57.5
+        },
+        {
+          "assetId": "68f4ded729be8c2fb1a338ebc4a0a697",
+          "name": "Meraki 3",
+          "bitmapResolution": 1,
+          "md5ext": "68f4ded729be8c2fb1a338ebc4a0a697.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 34.8,
+          "rotationCenterY": 57.5
+        },
+        {
+          "assetId": "c435a1fcdf5f60a29f620fa800e391e5",
+          "name": "Meraki 4",
+          "bitmapResolution": 1,
+          "md5ext": "c435a1fcdf5f60a29f620fa800e391e5.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 34.8,
+          "rotationCenterY": 57.5
+        },
+        {
+          "assetId": "c435a1fcdf5f60a29f620fa800e391e7",
+          "name": "Meraki 5",
+          "bitmapResolution": 1,
+          "md5ext": "c435a1fcdf5f60a29f620fa800e391e7.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 34.8,
+          "rotationCenterY": 57.5
+        },
+        {
+          "assetId": "c435a1fcdf5f60a29f620fa800e391e8",
+          "name": "Meraki 6",
+          "bitmapResolution": 1,
+          "md5ext": "c435a1fcdf5f60a29f620fa800e391e8.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 34.8,
+          "rotationCenterY": 57.5
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "caa0a1685ef7a5334413834c6c818c5a",
+          "name": "Grunt",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 22050,
+          "sampleCount": 21337,
+          "md5ext": "caa0a1685ef7a5334413834c6c818c5a.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 20,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel": true
+          },
+          {
+            "opcode": "control_repeat",
+            "inputs": {
+              "TIMES": [1, [6, "*"]],
+              "SUBSTACK": [2, "*"]
+            }
+          },
+          {
+            "opcode": "looks_say",
+            "inputs": { "MESSAGE": [1, [10, "*"]] }
+          },
+          {
+            "opcode": "motion_movesteps",
+            "inputs": { "STEPS": [1, [4, "*"]] }
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

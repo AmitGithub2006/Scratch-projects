@@ -1,0 +1,248 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "8cc0b88d53345b3e337e8f028a32a4e7",
+          "name": "Bedroom 3",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Laptop",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "$*9i=4z?LN[NO]QZp/kl": {
+          "opcode": "event_whenthisspriteclicked",
+          "next": "Fs$/cbeRVzlECq8a|7,T",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 200,
+          "y": 237
+        },
+        "UzS;=QghtEwfhua5+p]F": {
+          "opcode": "motion_movesteps",
+          "next": null,
+          "parent": "Fs$/cbeRVzlECq8a|7,T",
+          "inputs": { "STEPS": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "Fs$/cbeRVzlECq8a|7,T": {
+          "opcode": "motion_gotoxy",
+          "next": "UzS;=QghtEwfhua5+p]F",
+          "parent": "$*9i=4z?LN[NO]QZp/kl",
+          "inputs": { "X": [1, [4, "-181"]], "Y": [1, [4, "83"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "76f456b30b98eeefd7c942b27b524e31",
+          "name": "laptop",
+          "bitmapResolution": 1,
+          "md5ext": "76f456b30b98eeefd7c942b27b524e31.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 75,
+          "rotationCenterY": 75
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": -181.3018780431254,
+      "y": 82.78018575851394,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Button2",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "f$sAW,~Hi[R8ood#*(/x": {
+          "opcode": "event_whenflagclicked",
+          "next": "bGU`H00=5R_il[:puEM,",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 193,
+          "y": 145
+        },
+        "bGU`H00=5R_il[:puEM,": {
+          "opcode": "motion_movesteps",
+          "next": "R=!!9faU;-;Z4arB7HTQ",
+          "parent": "f$sAW,~Hi[R8ood#*(/x",
+          "inputs": { "STEPS": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "R=!!9faU;-;Z4arB7HTQ": {
+          "opcode": "motion_movesteps",
+          "next": null,
+          "parent": "bGU`H00=5R_il[:puEM,",
+          "inputs": { "STEPS": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "c0051ff23e9aae78295964206793c1e3",
+          "name": "button2-a",
+          "bitmapResolution": 1,
+          "md5ext": "c0051ff23e9aae78295964206793c1e3.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 72,
+          "rotationCenterY": 72
+        },
+        {
+          "assetId": "712a561dc0ad66e348b8247e566b50ef",
+          "name": "button2-b",
+          "bitmapResolution": 1,
+          "md5ext": "712a561dc0ad66e348b8247e566b50ef.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 72,
+          "rotationCenterY": 72
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 181.29680616740086,
+      "y": -13.247678018575844,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Bedroom 3"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenthisspriteclicked",
+            "topLevel": true
+          },
+          {
+             "opcode": "motion_gotoxy",
+             "inputs": { "X": [1, [4, "*"]], "Y": [1, [4, "*"]] }
+          },
+          {
+            "opcode": "motion_movesteps",
+            "inputs": { "STEPS": [1, [4, "*"]] }
+          }
+        ]
+      },
+      {
+        "targetIndex": 2,
+        "blocks": [
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel": true
+          },
+          {
+             "opcode": "motion_movesteps",
+             "inputs": { "STEPS": [1, [4, "*"]] }
+          },
+          {
+            "opcode": "motion_movesteps",
+            "inputs": { "STEPS": [1, [4, "*"]] }
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

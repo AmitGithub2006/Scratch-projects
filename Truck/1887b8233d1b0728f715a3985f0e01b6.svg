@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="273.6512878417969" height="119.03999786376953" viewBox="0.17869660854339597 -0.32000001668930056 273.6512878417969 119.03999786376953">
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <g id="ID0.6599094420671463">
+    <g id="Page-1">
+      <g id="City_Truck-02">
+        <g id="Tire-1">
+          <path id="Oval" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 45.35 93.91 C 47.717 93.91 49.862 94.871 51.415 96.425 C 52.969 97.978 53.93 100.123 53.93 102.49 C 53.93 104.857 52.969 107.002 51.415 108.555 C 49.862 110.109 47.717 111.07 45.35 111.07 C 42.983 111.07 40.838 110.109 39.285 108.555 C 37.731 107.002 36.77 104.857 36.77 102.49 C 36.77 100.123 37.731 97.978 39.285 96.425 C 40.838 94.871 42.983 93.91 45.35 93.91 Z "/>
+          <path id="Shape" fill="#5E154D" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 45.35 87.82 C 37.066 87.82 30.35 94.536 30.35 102.82 C 30.35 111.104 37.066 117.82 45.35 117.82 C 53.634 117.82 60.35 111.104 60.35 102.82 C 60.35 94.536 53.634 87.82 45.35 87.82 Z M 45.35 110.2 C 41.249 110.101 37.995 106.714 38.061 102.613 C 38.126 98.512 41.487 95.23 45.589 95.262 C 49.69 95.295 52.999 98.628 53 102.73 C 53.001 104.743 52.189 106.671 50.749 108.077 C 49.309 109.483 47.362 110.249 45.35 110.2 Z "/>
+          <path id="Oval" fill="#FFFFFF" stroke="#DA53D6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 45.35 98.89 C 46.409 98.89 47.369 99.32 48.065 100.015 C 48.76 100.711 49.19 101.671 49.19 102.73 C 49.19 103.789 48.76 104.749 48.065 105.445 C 47.369 106.14 46.409 106.57 45.35 106.57 C 44.291 106.57 43.331 106.14 42.635 105.445 C 41.94 104.749 41.51 103.789 41.51 102.73 C 41.51 101.671 41.94 100.711 42.635 100.015 C 43.331 99.32 44.291 98.89 45.35 98.89 Z "/>
+        </g>
+        <g id="Tire-2">
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 174.77 90.76 C 168.143 90.76 162.77 96.133 162.77 102.76 C 162.77 109.387 168.143 114.76 174.77 114.76 C 181.397 114.76 186.77 109.387 186.77 102.76 C 186.77 96.133 181.397 90.76 174.77 90.76 Z "/>
+          <path id="Shape" fill="#5E154D" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 174.77 87.82 C 166.486 87.82 159.77 94.536 159.77 102.82 C 159.77 111.104 166.486 117.82 174.77 117.82 C 183.054 117.82 189.77 111.104 189.77 102.82 C 189.77 94.536 183.054 87.82 174.77 87.82 Z M 174.77 110.2 C 171.749 110.2 169.025 108.38 167.869 105.589 C 166.712 102.797 167.352 99.584 169.488 97.448 C 171.624 95.312 174.837 94.672 177.629 95.829 C 180.42 96.985 182.24 99.709 182.24 102.73 C 182.248 104.714 181.464 106.618 180.061 108.021 C 178.658 109.424 176.754 110.208 174.77 110.2 Z "/>
+          <path id="Oval" fill="#FFFFFF" stroke="#DA53D6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 174.77 98.89 C 175.829 98.89 176.789 99.32 177.485 100.015 C 178.18 100.711 178.61 101.671 178.61 102.73 C 178.61 103.789 178.18 104.749 177.485 105.445 C 176.789 106.14 175.829 106.57 174.77 106.57 C 173.711 106.57 172.751 106.14 172.055 105.445 C 171.36 104.749 170.93 103.789 170.93 102.73 C 170.93 101.671 171.36 100.711 172.055 100.015 C 172.751 99.32 173.711 98.89 174.77 98.89 Z "/>
+        </g>
+        <g id="Tire-3">
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 218 90.76 C 211.373 90.76 206 96.133 206 102.76 C 206 109.387 211.373 114.76 218 114.76 C 224.627 114.76 230 109.387 230 102.76 C 230 96.133 224.627 90.76 218 90.76 Z "/>
+          <path id="Shape" fill="#5E154D" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 218 87.82 C 209.716 87.82 203 94.536 203 102.82 C 203 111.104 209.716 117.82 218 117.82 C 226.284 117.82 233 111.104 233 102.82 C 233 98.842 231.42 95.026 228.607 92.213 C 225.794 89.4 221.978 87.82 218 87.82 Z M 218 110.2 C 213.874 110.2 210.53 106.856 210.53 102.73 C 210.53 98.604 213.874 95.26 218 95.26 C 222.126 95.26 225.47 98.604 225.47 102.73 C 225.47 106.856 222.126 110.2 218 110.2 Z "/>
+          <path id="Oval" fill="#FFFFFF" stroke="#DA53D6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 217.91 98.89 C 218.969 98.89 219.929 99.32 220.625 100.015 C 221.32 100.711 221.75 101.671 221.75 102.73 C 221.75 103.789 221.32 104.749 220.625 105.445 C 219.929 106.14 218.969 106.57 217.91 106.57 C 216.851 106.57 215.891 106.14 215.195 105.445 C 214.5 104.749 214.07 103.789 214.07 102.73 C 214.07 101.671 214.5 100.711 215.195 100.015 C 215.891 99.32 216.851 98.89 217.91 98.89 Z "/>
+        </g>
+        <g id="Group-3">
+          <g id="Group-2">
+            <path id="Rectangle" fill="#FDBB38" stroke="#5E154D" stroke-width="1.44" d="M 113.75 92.2 L 141.83 92.2 L 141.83 105.37 L 113.75 105.37 L 113.75 92.2 Z "/>
+            <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" d="M 122.03 92.2 L 122.03 105.37 "/>
+            <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" d="M 133.58 92.2 L 133.58 105.37 "/>
+          </g>
+          <path id="Rectangle" fill="#FFFFFF" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" d="M 88.46 82.81 L 272.93 82.81 L 272.93 92.2 L 88.46 92.2 L 88.46 82.81 Z "/>
+          <path id="Rectangle" fill="#FDBB38" stroke="#5E154D" stroke-width="1.44" d="M 88.46 92.2 L 266.66 92.2 L 266.66 102.73 L 88.46 102.73 L 88.46 92.2 Z "/>
+        </g>
+        <g id="Group">
+          <path id="Path" fill="#25B0B7" stroke="none" stroke-width="1" d="M 11.75 65.74 L 32 54.34 L 32.93 49.93 C 32.93 49.93 14.66 60.04 10.73 62.26 C 6.26 64.75 6.29 66.91 6.29 72.22 L 6.29 102.73 L 9.47 102.73 L 9.47 71.92 C 9.53 69.22 9.62 67 11.75 65.74 Z "/>
+          <path id="Path" fill="#43C3D7" stroke="none" stroke-width="1" d="M 47.96 10.36 C 43.61 10.36 41.75 11.53 40.73 16.09 C 40.52 17.17 40.01 19.33 39.41 22.09 L 43.1 22.09 C 44.336 22.106 45.334 23.104 45.35 24.34 L 45.35 45.67 C 45.35 46.918 44.347 47.934 43.1 47.95 L 33.47 47.95 L 32.99 49.93 L 32 54.34 L 11.69 65.74 C 9.56 66.94 9.47 69.22 9.47 71.92 L 9.47 102.73 L 26.36 102.73 C 26.36 92.424 34.714 84.07 45.02 84.07 C 55.326 84.07 63.68 92.424 63.68 102.73 L 88.4 102.73 L 88.4 10.36 L 47.96 10.36 Z "/>
+          <path id="Rectangle" fill="none" stroke="#009CC6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 69.71 53.8 L 79.07 53.8 L 79.07 57.34 L 69.71 57.34 L 69.71 53.8 Z "/>
+          <path id="Rectangle" fill="none" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 16.82 88.9 L 22.82 88.9 L 22.82 92.23 L 16.82 92.23 L 16.82 88.9 Z "/>
+          <path id="Path" fill="none" stroke="#009CC6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 80.78 17.05 L 53 17.05 C 51.582 17.066 50.436 18.212 50.42 19.63 L 50.42 79.33 C 59.125 80.715 66.039 87.389 67.73 96.04 L 80.81 96.04 C 82.228 96.024 83.374 94.878 83.39 93.46 L 83.39 19.63 C 83.374 18.2 82.21 17.05 80.78 17.05 Z "/>
+          <path id="Rectangle" fill="none" stroke="#009CC6" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 54.53 56.23 L 58.01 56.23 L 58.01 62.68 L 54.53 62.68 L 54.53 56.23 Z "/>
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 79.1 22.09 L 76.25 22.09 L 67.22 47.95 L 79.1 47.95 L 79.1 22.09 "/>
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 54.65 22.09 L 54.65 47.95 L 58.31 47.95 L 67.34 22.09 L 54.65 22.09 "/>
+          <path id="Path" fill="#FFEEF6" stroke="none" stroke-width="1" d="M 67.34 22.09 L 58.31 47.95 L 62.84 47.95 L 71.9 22.09 L 67.34 22.09 "/>
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 43.1 22 L 39.41 22 C 37.58 30.01 34.58 43 33.41 47.86 L 36.83 47.86 L 45.26 23.86 C 45.054 22.817 44.162 22.049 43.1 22 Z "/>
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 39.41 47.95 L 43.1 47.95 C 44.347 47.934 45.35 46.918 45.35 45.67 L 45.35 30.34 L 39.41 47.95 Z "/>
+          <path id="Path" fill="#FFEEF6" stroke="none" stroke-width="1" d="M 45.35 24.34 C 45.365 24.19 45.365 24.04 45.35 23.89 L 36.92 47.89 L 39.44 47.89 L 45.44 30.28 L 45.35 24.34 Z "/>
+          <path id="Path" fill="#F7C1D8" stroke="none" stroke-width="1" d="M 71.9 22.09 L 62.84 47.95 L 65.21 47.95 L 74.24 22.09 L 71.9 22.09 "/>
+          <path id="Path" fill="#FFEEF6" stroke="none" stroke-width="1" d="M 74.24 22.09 L 65.21 47.95 L 67.22 47.95 L 76.25 22.09 L 74.24 22.09 "/>
+          <path id="Path" fill="#43C3D7" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 36.77 16.18 L 33.47 29.62 L 28.82 29.62 C 28.82 29.62 30.5 23.23 31.49 19.9 C 32.21 17.5 32.51 16.18 33.77 16.18 L 36.77 16.18 Z "/>
+          <path id="Path" fill="#43C3D7" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 36.77 16.18 L 40.73 16.18 L 39.95 19.66 L 35.9 19.66 L 36.77 16.18 "/>
+          <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.44" stroke-linejoin="round" d="M 47.96 10.36 C 43.61 10.36 41.75 11.53 40.73 16.09 C 40.52 17.17 40.01 19.33 39.41 22.09 C 37.58 30.1 34.58 43.09 33.41 47.95 L 32.93 49.93 C 32.93 49.93 14.66 60.04 10.73 62.26 C 6.26 64.75 6.29 66.91 6.29 72.22 L 6.29 102.73 L 26.36 102.73 C 26.36 92.424 34.714 84.07 45.02 84.07 C 55.326 84.07 63.68 92.424 63.68 102.73 L 88.4 102.73 L 88.4 10.36 L 47.96 10.36 Z "/>
+          <path id="Rectangle" fill="none" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 54.65 22.09 L 79.1 22.09 L 79.1 47.95 L 54.65 47.95 L 54.65 22.09 Z "/>
+          <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 47.96 10.36 C 43.61 10.36 41.75 11.53 40.73 16.09 C 40.52 17.17 40.01 19.33 39.41 22.09 C 37.58 30.1 34.58 43.09 33.41 47.95 L 32.93 49.93 C 32.93 49.93 14.66 60.04 10.73 62.26 C 6.26 64.75 6.29 66.91 6.29 72.22 L 6.29 102.73 L 26.36 102.73 C 26.36 92.424 34.714 84.07 45.02 84.07 C 55.326 84.07 63.68 92.424 63.68 102.73 L 88.4 102.73 L 88.4 10.36 L 47.96 10.36 Z "/>
+          <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 45.32 23.89 C 45.085 22.849 44.167 22.105 43.1 22.09 L 39.41 22.09 C 37.58 30.1 34.58 43.09 33.41 47.95 L 43.1 47.95 C 44.347 47.934 45.35 46.918 45.35 45.67 L 45.35 24.34 C 45.355 24.189 45.345 24.039 45.32 23.89 Z "/>
+          <path id="Path" fill="#00828C" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 4.1 94.66 L 4.1 97.45 L 17.33 97.45 L 17.93 94.66 L 4.1 94.66 "/>
+          <path id="Path" fill="#00828C" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 4.1 99.91 L 16.82 99.91 L 17.33 97.45 L 4.1 97.45 L 4.1 99.91 "/>
+          <path id="Path" fill="#00828C" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 18.44 92.2 L 4.1 92.2 L 4.1 94.66 L 17.93 94.66 L 18.44 92.2 "/>
+          <path id="Path" fill="#FDBB38" stroke="none" stroke-width="1" d="M 6.35 76.96 L 4.1 76.96 C 2.36 76.96 1.61 79.51 1.31 82.09 L 6.35 82.09 L 6.35 76.96 Z "/>
+          <path id="Path" fill="#FFFFFF" stroke="none" stroke-width="1" d="M 1.31 82 C 1.109 83.702 1.039 85.417 1.1 87.13 L 6.35 87.13 L 6.35 82 L 1.31 82 Z "/>
+          <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 4.1 76.96 C 2.36 76.96 1.61 79.51 1.31 82.09 C 1.109 83.792 1.039 85.507 1.1 87.22 L 6.35 87.22 L 6.35 76.96 L 4.1 76.96 Z "/>
+        </g>
+        <g id="Back-of-Truck">
+          <path id="Path" fill="#DA53D6" stroke="none" stroke-width="1" d="M 268.22 82.39 L 92.42 82.39 L 92.42 0.58 L 258.77 0.58 C 264.56 0.58 268.22 3.58 268.22 11.77 L 268.22 82.39 Z "/>
+          <path id="Path" fill="none" stroke="#5E154D" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" d="M 268.22 82.39 L 92.42 82.39 L 92.42 0.58 L 258.77 0.58 C 264.56 0.58 268.22 3.58 268.22 11.77 L 268.22 82.39 Z "/>
+          <path id="Path" fill="none" stroke="#FC9FE4" stroke-width="1.44" stroke-linejoin="round" d="M 92.42 16.63 L 268.22 16.63 "/>
+          <path id="Path" fill="none" stroke="#FC9FE4" stroke-width="1.44" stroke-linejoin="round" d="M 92.42 33.37 L 268.22 33.37 "/>
+          <path id="Path" fill="none" stroke="#FC9FE4" stroke-width="1.44" stroke-linejoin="round" d="M 92.42 50.11 L 268.22 50.11 "/>
+          <path id="Path" fill="none" stroke="#FC9FE4" stroke-width="1.44" stroke-linejoin="round" d="M 92.42 66.85 L 268.22 66.85 "/>
+          <path id="Path" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M 254.75 4.9 L 257.96 4.9 C 259.454 4.679 260.966 5.16 262.057 6.204 C 263.148 7.248 263.695 8.738 263.54 10.24 L 263.54 12.58 "/>
+          <path id="Rectangle" fill="#5E154D" stroke="#5E154D" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round" d="M 88.46 14.56 L 92.42 14.56 L 92.42 82.39 L 88.46 82.39 L 88.46 14.56 Z "/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,213 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "47282ff0f7047c6fab9c94b531abf721",
+          "name": "Stars",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Earth",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "lR#rnM;3p|/!?JHJsly2": {
+          "opcode": "event_whenflagclicked",
+          "next": "TttVV9JG=Rxy:_D%$8dc",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 120,
+          "y": 135
+        },
+        "TttVV9JG=Rxy:_D%$8dc": {
+          "opcode": "motion_turnright",
+          "next": null,
+          "parent": "lR#rnM;3p|/!?JHJsly2",
+          "inputs": { "DEGREES": [1, [4, "15"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "d9df2cf4f6eb2460d0de3e4f1e05f40b",
+          "name": "Earth",
+          "bitmapResolution": 1,
+          "md5ext": "d9df2cf4f6eb2460d0de3e4f1e05f40b.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 41,
+          "rotationCenterY": 40
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 156.60007535358216,
+      "y": 26.879256965944286,
+      "size": 100,
+      "direction": -105,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Planet2",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "6`fGA1[@O^8K{H.6y,~w": {
+          "opcode": "event_whenkeypressed",
+          "next": "-f[wuf-kxMaGn^QkjB2~",
+          "parent": null,
+          "inputs": {},
+          "fields": { "KEY_OPTION": ["space", null] },
+          "shadow": false,
+          "topLevel": true,
+          "x": 199,
+          "y": 207
+        },
+        "-f[wuf-kxMaGn^QkjB2~": {
+          "opcode": "motion_movesteps",
+          "next": null,
+          "parent": "6`fGA1[@O^8K{H.6y,~w",
+          "inputs": { "STEPS": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "978784738c1d9dd4b1d397fd18bdf406",
+          "name": "planet2",
+          "bitmapResolution": 1,
+          "md5ext": "978784738c1d9dd4b1d397fd18bdf406.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 72,
+          "rotationCenterY": 72
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": -159.68722466960352,
+      "y": 50.15789473684211,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Stars"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel": true
+          },
+          {
+            "opcode": "motion_turnright",
+            "inputs": { "DEGREES": [1, [4, "*"]] }
+          }
+        ]
+      },
+      {
+        "targetIndex": 2,
+        "blocks": [
+            {
+              "opcode": "event_whenkeypressed",
+              "topLevel": true
+            },
+            {
+              "opcode": "motion_movesteps",
+              "inputs": { "STEPS": [1, [4, "*"]] }
+            }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

@@ -1,0 +1,284 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "4eec0e1db92b8dea3e5bee25105e8f46",
+          "name": "Xy-grid-20px",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Pencil",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "P`UhMn$Ao;-p(0ijovS(": {
+          "opcode": "event_whenflagclicked",
+          "next": "Bq2!OV|LtMQX%2c_jK${",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 77,
+          "y": 147
+        },
+        "Bq2!OV|LtMQX%2c_jK${": {
+          "opcode": "sound_play",
+          "next": "jC#O;OaMJH]oEx-fN7_B",
+          "parent": "P`UhMn$Ao;-p(0ijovS(",
+          "inputs": { "SOUND_MENU": [1, "{aM%s]P`jdSaOlN{mI6s"] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "{aM%s]P`jdSaOlN{mI6s": {
+          "opcode": "sound_sounds_menu",
+          "next": null,
+          "parent": "Bq2!OV|LtMQX%2c_jK${",
+          "inputs": {},
+          "fields": { "SOUND_MENU": ["pop", null] },
+          "shadow": true,
+          "topLevel": false
+        },
+        "jC#O;OaMJH]oEx-fN7_B": {
+          "opcode": "looks_say",
+          "next": null,
+          "parent": "Bq2!OV|LtMQX%2c_jK${",
+          "inputs": { "MESSAGE": [1, [10, "Hello!"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "RA*AD/5/oBWZ}.(BZ=Y{": {
+          "opcode": "event_whenkeypressed",
+          "next": "Ac%u~7!D=b0.%UojYO4.",
+          "parent": null,
+          "inputs": {},
+          "fields": { "KEY_OPTION": ["space", null] },
+          "shadow": false,
+          "topLevel": true,
+          "x": 292,
+          "y": 159
+        },
+        "Ac%u~7!D=b0.%UojYO4.": {
+          "opcode": "looks_think",
+          "next": "q,Og3ND/Yxc.?u`6MmV=",
+          "parent": "RA*AD/5/oBWZ}.(BZ=Y{",
+          "inputs": { "MESSAGE": [1, [10, "Hmm..."]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "q,Og3ND/Yxc.?u`6MmV=": {
+          "opcode": "motion_turnright",
+          "next": null,
+          "parent": "Ac%u~7!D=b0.%UojYO4.",
+          "inputs": { "DEGREES": [1, [4, "15"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "~pBL^X/LvK[BY]TiG@Wy": {
+          "opcode": "event_whenthisspriteclicked",
+          "next": "}.^mB!qY_hZqxd:K``[6",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 591,
+          "y": 159
+        },
+        "}.^mB!qY_hZqxd:K``[6": {
+          "opcode": "looks_changesizeby",
+          "next": null,
+          "parent": "~pBL^X/LvK[BY]TiG@Wy",
+          "inputs": { "CHANGE": [1, [4, "10"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "4495fcb0443cebc5d43e66243a88f1ac",
+          "name": "pencil-a",
+          "bitmapResolution": 1,
+          "md5ext": "4495fcb0443cebc5d43e66243a88f1ac.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 49,
+          "rotationCenterY": 54
+        },
+        {
+          "assetId": "21088922dbe127f6d2e58e2e83fb632e",
+          "name": "pencil-b",
+          "bitmapResolution": 1,
+          "md5ext": "21088922dbe127f6d2e58e2e83fb632e.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 48,
+          "rotationCenterY": 68
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 72,
+      "y": 38,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Line",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "1b2cfb4d4746522aeb84e16a62820299",
+          "name": "line",
+          "bitmapResolution": 1,
+          "md5ext": "1b2cfb4d4746522aeb84e16a62820299.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 239,
+          "rotationCenterY": 7
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 13.553906793415265,
+      "y": -85.6749226006192,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Xy-grid-20px"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+            {
+               "opcode": "event_whenflagclicked",
+                "topLevel": true
+            },
+            {
+                "opcode": "sound_play",
+                "inputs": { "SOUND_MENU": [1, "*"] }
+            },
+            {
+                "opcode": "sound_sounds_menu",
+                "fields": { "SOUND_MENU": ["*", null] }
+            },
+            {
+                "opcode": "looks_say",
+                "inputs": { "MESSAGE": [1, [10, "*"]] }
+            },
+            {
+                "opcode": "event_whenkeypressed",
+                "topLevel": true,
+                "fields": { "KEY_OPTION": ["*", null] }
+            },
+            {
+                "opcode": "looks_think",
+                "inputs": { "MESSAGE": [1, [10, "*"]] }
+            },
+            {
+                "opcode": "motion_turnright",
+                "inputs": { "DEGREES": [1, [4, "*"]] }
+            },
+            {
+                "opcode": "event_whenthisspriteclicked",
+                "topLevel": true
+            },
+            {
+                "opcode": "looks_changesizeby",
+                "inputs": { "CHANGE": [1, [4, "*"]] }
+            }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}
