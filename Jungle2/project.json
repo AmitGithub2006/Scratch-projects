@@ -1,1 +1,229 @@
-{"targets":[{"isStage":true,"name":"Stage","variables":{"`jEk@4|i[#Fk?(8x)AV.-my variable":["my variable"]},"lists":{},"broadcasts":{},"imageVars":{},"blocks":{},"comments":{},"currentCostume":1,"costumes":[{"assetId":"4600adf0fe542ad29bd1f9cc3fef2cda","name":"backdrop1","bitmapResolution":1,"md5ext":"4600adf0fe542ad29bd1f9cc3fef2cda.svg","dataFormat":"svg","rotationCenterX":240,"rotationCenterY":180},{"assetId":"2e3698c41cd90495e7949e48d9f73e60","name":"Jungle","bitmapResolution":2,"md5ext":"2e3698c41cd90495e7949e48d9f73e60.png","dataFormat":"png","rotationCenterX":480,"rotationCenterY":360}],"sounds":[],"volume":100,"layerOrder":0,"tempo":60,"videoTransparency":50,"videoState":"on","textToSpeechLanguage":null},{"isStage":false,"name":"Hare","variables":{},"lists":{},"broadcasts":{},"imageVars":{},"blocks":{"@B_@Rjm?+[(4SuXNL6IO":{"opcode":"event_whenflagclicked","next":"Ll[sB.VX(C[#?JV@5,qy","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":224,"y":147},"Ll[sB.VX(C[#?JV@5,qy":{"opcode":"looks_say","next":null,"parent":"@B_@Rjm?+[(4SuXNL6IO","inputs":{"MESSAGE":[1,[10,"Help !"]]},"fields":{},"shadow":false,"topLevel":false}},"comments":{},"currentCostume":1,"costumes":[{"assetId":"7269593d83b6f9eae512997f541a7417","name":"hare-a","bitmapResolution":1,"md5ext":"7269593d83b6f9eae512997f541a7417.svg","dataFormat":"svg","rotationCenterX":29,"rotationCenterY":50},{"assetId":"c8dbb4302dd489a201938c203018c2f0","name":"hare-b","bitmapResolution":1,"md5ext":"c8dbb4302dd489a201938c203018c2f0.svg","dataFormat":"svg","rotationCenterX":57,"rotationCenterY":35},{"assetId":"85a3b8c151e10576fa531a4293fdac00","name":"hare-c","bitmapResolution":1,"md5ext":"85a3b8c151e10576fa531a4293fdac00.svg","dataFormat":"svg","rotationCenterX":40,"rotationCenterY":40}],"sounds":[{"assetId":"83a9787d4cb6f3b7632b4ddfebf74367","name":"pop","dataFormat":"wav","format":"","rate":48000,"sampleCount":1123,"md5ext":"83a9787d4cb6f3b7632b4ddfebf74367.wav"}],"volume":100,"layerOrder":1,"visible":true,"x":132.6325063760723,"y":-96.91331269349843,"size":100,"direction":90,"draggable":false,"rotationStyle":"all around"},{"isStage":false,"name":"Lion","variables":{},"lists":{},"broadcasts":{},"imageVars":{},"blocks":{},"comments":{},"currentCostume":0,"costumes":[{"assetId":"e88e83c8b3ca80c54540b5f0c5a0cc03","name":"lion-a","bitmapResolution":1,"md5ext":"e88e83c8b3ca80c54540b5f0c5a0cc03.svg","dataFormat":"svg","rotationCenterX":95,"rotationCenterY":43},{"assetId":"f0d9ab3d82bbade6e279dc1c81e2e6db","name":"lion-b","bitmapResolution":1,"md5ext":"f0d9ab3d82bbade6e279dc1c81e2e6db.svg","dataFormat":"svg","rotationCenterX":94,"rotationCenterY":43},{"assetId":"91c64c5361d906fd36d5813ae27b85a8","name":"lion-c","bitmapResolution":1,"md5ext":"91c64c5361d906fd36d5813ae27b85a8.svg","dataFormat":"svg","rotationCenterX":95,"rotationCenterY":43}],"sounds":[{"assetId":"83a9787d4cb6f3b7632b4ddfebf74367","name":"pop","dataFormat":"wav","format":"","rate":48000,"sampleCount":1123,"md5ext":"83a9787d4cb6f3b7632b4ddfebf74367.wav"},{"assetId":"caa0a1685ef7a5334413834c6c818c5a","name":"grunt","dataFormat":"wav","format":"adpcm","rate":22050,"sampleCount":21337,"md5ext":"caa0a1685ef7a5334413834c6c818c5a.wav"}],"volume":100,"layerOrder":2,"visible":true,"x":-136.27961975423136,"y":-109.10216718266253,"size":100,"direction":90,"draggable":false,"rotationStyle":"all around"}],"monitors":[],"extensions":[],"meta":{"semver":"3.0.0","vm":"0.2.0","agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"scratchVersion":"m.3.6.0"}
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["my variable"] },
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "4600adf0fe542ad29bd1f9cc3fef2cda",
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "md5ext": "4600adf0fe542ad29bd1f9cc3fef2cda.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        },
+        {
+          "assetId": "2e3698c41cd90495e7949e48d9f73e60",
+          "name": "Jungle",
+          "bitmapResolution": 2,
+          "md5ext": "2e3698c41cd90495e7949e48d9f73e60.png",
+          "dataFormat": "png",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Hare",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {
+        "@B_@Rjm?+[(4SuXNL6IO": {
+          "opcode": "event_whenflagclicked",
+          "next": "Ll[sB.VX(C[#?JV@5,qy",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 224,
+          "y": 147
+        },
+        "Ll[sB.VX(C[#?JV@5,qy": {
+          "opcode": "looks_say",
+          "next": null,
+          "parent": "@B_@Rjm?+[(4SuXNL6IO",
+          "inputs": { "MESSAGE": [1, [10, "Help !"]] },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 1,
+      "costumes": [
+        {
+          "assetId": "7269593d83b6f9eae512997f541a7417",
+          "name": "hare-a",
+          "bitmapResolution": 1,
+          "md5ext": "7269593d83b6f9eae512997f541a7417.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 29,
+          "rotationCenterY": 50
+        },
+        {
+          "assetId": "c8dbb4302dd489a201938c203018c2f0",
+          "name": "hare-b",
+          "bitmapResolution": 1,
+          "md5ext": "c8dbb4302dd489a201938c203018c2f0.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 57,
+          "rotationCenterY": 35
+        },
+        {
+          "assetId": "85a3b8c151e10576fa531a4293fdac00",
+          "name": "hare-c",
+          "bitmapResolution": 1,
+          "md5ext": "85a3b8c151e10576fa531a4293fdac00.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 40,
+          "rotationCenterY": 40
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 132.6325063760723,
+      "y": -96.91331269349843,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Lion",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "imageVars": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "e88e83c8b3ca80c54540b5f0c5a0cc03",
+          "name": "lion-a",
+          "bitmapResolution": 1,
+          "md5ext": "e88e83c8b3ca80c54540b5f0c5a0cc03.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 95,
+          "rotationCenterY": 43
+        },
+        {
+          "assetId": "f0d9ab3d82bbade6e279dc1c81e2e6db",
+          "name": "lion-b",
+          "bitmapResolution": 1,
+          "md5ext": "f0d9ab3d82bbade6e279dc1c81e2e6db.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 94,
+          "rotationCenterY": 43
+        },
+        {
+          "assetId": "91c64c5361d906fd36d5813ae27b85a8",
+          "name": "lion-c",
+          "bitmapResolution": 1,
+          "md5ext": "91c64c5361d906fd36d5813ae27b85a8.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 95,
+          "rotationCenterY": 43
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 48000,
+          "sampleCount": 1123,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        },
+        {
+          "assetId": "caa0a1685ef7a5334413834c6c818c5a",
+          "name": "grunt",
+          "dataFormat": "wav",
+          "format": "adpcm",
+          "rate": 22050,
+          "sampleCount": 21337,
+          "md5ext": "caa0a1685ef7a5334413834c6c818c5a.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": -136.27961975423136,
+      "y": -109.10216718266253,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "solution": {
+    "targets": [
+      {
+        "targetIndex": 0,
+        "costumes": [
+          {
+            "name": "Jungle"
+          }
+        ]
+      },
+      {
+        "targetIndex": 1,
+        "blocks": [
+          {
+            "opcode": "event_whenflagclicked",
+            "topLevel":true
+          },
+          {
+            "opcode": "looks_say",
+            "inputs": { "MESSAGE": [1, [10, "*"]] }
+          }
+        ]
+      },
+      {
+        "targetIndex": 2,
+        "blocks":[]
+      }
+    ]
+  },
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+  },
+  "scratchVersion": "m.3.6.0"
+}

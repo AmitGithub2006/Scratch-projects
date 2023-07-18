@@ -1,7 +1,7 @@
 <h2>Screenshot</h2>
 <img src="./ProjectSnap.png" />
 <h3>Blocks</h3>
-<img src="./Bear.jpg" />
+<img src="./Jungle.jpg" />
 
 <h3>Solution</h3>
 <pre>
@@ -11,7 +11,7 @@
         "targetIndex": 0,
         "costumes": [
           {
-            "name": "Woods"
+            "name": "Jungle"
           }
         ]
       },
@@ -23,17 +23,14 @@
             "topLevel":true
           },
           {
-            "opcode": "control_repeat",
-            "inputs": { "TIMES": [1, [6, "*"]], "SUBSTACK": [2, "*"] }
-          },
-          {
-            "opcode": "motion_movesteps",
-            "inputs": { "STEPS": [1, [4, "*"]] }
-          },
-          {
-            "opcode": "looks_nextcostume"
+            "opcode": "looks_say",
+            "inputs": { "MESSAGE": [1, [10, "*"]] }
           }
         ]
+      },
+      {
+        "targetIndex": 2,
+        "blocks":[]
       }
     ]
   }

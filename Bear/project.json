@@ -207,11 +207,11 @@
           },
           {
             "opcode": "control_repeat",
-            "inputs": { "TIMES": [1, [6, "5"]], "SUBSTACK": [2, "q2P`E.WSL)*yN[+#}5m3"] }
+            "inputs": { "TIMES": [1, [6, "*"]], "SUBSTACK": [2, "*"] }
           },
           {
             "opcode": "motion_movesteps",
-            "inputs": { "STEPS": [1, [4, "10"]] }
+            "inputs": { "STEPS": [1, [4, "*"]] }
           },
           {
             "opcode": "looks_nextcostume"
