@@ -373,7 +373,8 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
           {
             "opcode": "event_whenkeypressed",
             "topLevel": true
@@ -382,7 +383,13 @@
             "opcode": "looks_say",
             "inputs": { "MESSAGE": [1, [10, "*"]] }
           }
+        ],
+        "exactMatch": [
+          {
+            "opcode": "looks_say"
+          }
         ]
+        }
       },
       {
         "targetIndex": 2,
@@ -390,7 +397,8 @@
       },
       {
         "targetIndex": 3,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
             {
               "opcode": "event_whenflagclicked",
               "topLevel": true
@@ -403,11 +411,18 @@
               "opcode": "sound_sounds_menu",
               "fields": { "SOUND_MENU": ["*", null] }
             }
-        ]
+          ],
+          "exactMatch":[
+            {
+              "opcode": "sound_playuntildone"
+            }
+          ]
+          }
       },
       {
         "targetIndex": 4,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
             {
               "opcode": "event_whenflagclicked",
               "topLevel": true
@@ -416,7 +431,13 @@
               "opcode": "motion_movesteps",
               "inputs": { "STEPS": [1, [4, "*"]] }
             }
-        ]
+          ],
+          "exactMatch":[
+            {
+              "opcode": "motion_movesteps"
+            }
+          ]
+          }
       }
     ]
   },

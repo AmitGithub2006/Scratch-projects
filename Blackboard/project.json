@@ -250,19 +250,26 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
-          {
-            "opcode": "event_whenflagclicked",
-            "topLevel": true
-          },
-          {
-            "opcode": "looks_sayforsecs",
-            "inputs": {
-              "MESSAGE": [1, [10, "*"]],
-              "SECS": [1, [4, "*"]]
+        "blocks": {
+          "includeMatch": [
+            {
+              "opcode": "event_whenflagclicked",
+              "topLevel": true
+            },
+            {
+              "opcode": "looks_sayforsecs",
+              "inputs": {
+                "MESSAGE": [1, [10, "*"]],
+                "SECS": [1, [4, "*"]]
+              }
             }
-          }
-        ]
+          ],
+          "exactMatch": [
+            {
+              "opcode":"looks_sayforsecs"
+            }
+          ]
+        }
       },
       {
         "targetIndex": 2,
@@ -271,7 +278,8 @@
       },
       {
         "targetIndex": 3,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
             {
               "opcode": "event_whenflagclicked",
               "topLevel": true
@@ -280,7 +288,13 @@
               "opcode": "looks_changesizeby",
               "inputs": { "CHANGE": [1, [4, "*"]] }
             }
-        ]
+          ],
+          "exactMatch":[
+            {
+              "opcode": "looks_changesizeby"
+            }
+          ]
+          }
       }
     ]
   },

@@ -124,20 +124,27 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
-          {
-            "opcode": "event_whenkeypressed",
-            "topLevel": true
-          },
-          {
-            "opcode": "sound_playuntildone",
-            "inputs": { "SOUND_MENU": [1, "*"] }
-          },
-          {
-            "opcode": "sound_sounds_menu",
-            "fields": { "SOUND_MENU": ["*", null] }
-          }
-        ]
+        "blocks": {
+          "includeMatch": [
+            {
+              "opcode": "event_whenkeypressed",
+              "topLevel": true
+            },
+            {
+              "opcode": "sound_playuntildone",
+              "inputs": { "SOUND_MENU": [1, "*"] }
+            },
+            {
+              "opcode": "sound_sounds_menu",
+              "fields": { "SOUND_MENU": ["*", null] }
+            }
+          ],
+          "exactMatch": [
+            {
+              "opcode": "sound_playuntildone"
+            }
+          ]
+        }
       }
     ]
   },

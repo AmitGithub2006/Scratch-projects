@@ -264,7 +264,8 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
           {
             "opcode": "event_whenflagclicked",
             "topLevel": true
@@ -273,20 +274,33 @@
             "opcode": "looks_changesizeby",
             "inputs": { "CHANGE": [1, [4, "*"]] }
           }
+        ],
+        "exactMatch": [
+          {
+            "opcode": "looks_changesizeby"
+          }
         ]
+        }
       },
       {
         "targetIndex": 2,
-        "blocks": [
-          {
-            "opcode": "event_whenflagclicked",
-            "topLevel": true
-          },
-          {
-            "opcode": "motion_gotoxy",
-            "inputs": { "X": [1, [4, "*"]], "Y": [1, [4, "*"]] }
-          }
-        ]
+        "blocks": {
+          "includeMatch": [
+            {
+              "opcode": "event_whenflagclicked",
+              "topLevel": true
+            },
+            {
+              "opcode": "motion_gotoxy",
+              "inputs": { "X": [1, [4, "*"]], "Y": [1, [4, "*"]] }
+            }
+          ],
+          "exactMatch":[
+            {
+              "opcode": "motion_gotoxy"
+            }
+          ]
+        }
       }
     ]
   },

@@ -142,7 +142,8 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
           {
             "opcode": "event_whenflagclicked",
             "topLevel":true
@@ -154,7 +155,13 @@
           {
             "opcode": "looks_costume"
           }
+        ],
+        "exactMatch": [
+          {
+            "opcode": "looks_costume"
+          }
         ]
+        }
       },
       {
         "targetIndex": 2,

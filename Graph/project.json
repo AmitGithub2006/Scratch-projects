@@ -233,7 +233,9 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
+        "blocks": {
+          "includeMatch": [
+          [
             {
                "opcode": "event_whenflagclicked",
                 "topLevel": true
@@ -249,7 +251,9 @@
             {
                 "opcode": "looks_say",
                 "inputs": { "MESSAGE": [1, [10, "*"]] }
-            },
+            }
+          ],
+          [
             {
                 "opcode": "event_whenkeypressed",
                 "topLevel": true,
@@ -262,7 +266,9 @@
             {
                 "opcode": "motion_turnright",
                 "inputs": { "DEGREES": [1, [4, "*"]] }
-            },
+            }
+          ],
+          [
             {
                 "opcode": "event_whenthisspriteclicked",
                 "topLevel": true
@@ -271,7 +277,14 @@
                 "opcode": "looks_changesizeby",
                 "inputs": { "CHANGE": [1, [4, "*"]] }
             }
+          ]
+        ],
+        "exactMatch": [
+          {
+            "opcode": "looks_changesizeby"
+          }
         ]
+      }
       }
     ]
   },

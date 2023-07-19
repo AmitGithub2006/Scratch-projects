@@ -200,23 +200,30 @@
       },
       {
         "targetIndex": 1,
-        "blocks": [
-          {
-            "opcode": "event_whenflagclicked",
-            "topLevel":true
-          },
-          {
-            "opcode": "control_repeat",
-            "inputs": { "TIMES": [1, [6, "*"]], "SUBSTACK": [2, "*"] }
-          },
-          {
-            "opcode": "motion_movesteps",
-            "inputs": { "STEPS": [1, [4, "*"]] }
-          },
-          {
-            "opcode": "looks_nextcostume"
-          }
-        ]
+        "blocks": {
+          "includeMatch": [
+            {
+              "opcode": "event_whenflagclicked",
+              "topLevel":true
+            },
+            {
+              "opcode": "control_repeat",
+              "inputs": { "TIMES": [1, [6, "*"]], "SUBSTACK": [2, "*"] }
+            },
+            {
+              "opcode": "motion_movesteps",
+              "inputs": { "STEPS": [1, [4, "*"]] }
+            },
+            {
+              "opcode": "looks_nextcostume"
+            }
+          ],
+          "exactMatch": [
+            {
+              "opcode": "looks_nextcostume"
+            }
+          ]
+        }
       }
     ]
   },
